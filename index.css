@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    background: #fff;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 940px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+}
+.section{
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.title{
+    color: #314a31;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+}
+.title span{
+    color: #fa5c65;
+}
+.more{
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 14px;
+    color: #fa5c65;
+    text-decoration: none;
+}
+.more i{
+    transition:all 0.2s ease;
+    transform: translateX(5px);
+}
+.more:hover i{
+   transform: translateX(10px); 
+}
+
+header {
+    background: url("./back.jpg") no-repeat ;
+    background-position:  center 20%;
+    background-size: cover;
+    height: 800px;
+}
+
+.header-top {
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.logo {
+    background: #fa5c65;
+    border-radius: 0 0 7px 7px;
+
+}
+
+.logo p {
+    margin: 42px 15px 14px 15px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #263742;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    font-weight: 700;
+
+}
+
+.navbar li {
+    margin-top: 29px;
+    margin-right: 35px;
+}
+
+.navbar li:last-child {
+    margin-right: 0;
+}
+
+.navbar li a:hover {
+    color: #fa5c65;
+}
+
+.navbar li:nth-last-child(1) a,
+.navbar li:nth-last-child(2) a {
+    color: rgb(0, 0, 1);
+}
+
+
+/* header bottom */
+.header__bottom {
+    margin-top: 300px;
+}
+
+.header__bottom h1 {
+    color: #030303;
+}
+.header__bottom h4{
+    font-size: 20px;
+    color: #030303;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.header__bottom a{
+    padding: 15px 30px;
+    background: #fa5c65;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 7px;
+    transition: all 0.3s ease;
+}
+.header__bottom a:hover{
+    background: #fff;
+    color: #fa5c65;
+}
+/* End header */
+
+/* Snippets */
+
+section .container{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+._snippets__item{
+    max-width: 300px;
+    flex: 0 0 300px;
+}
+._snippets__item h1{
+    font-size: 26px;
+    margin-bottom: 20px;
+
+}
+._snippets__item p{
+    color: #9aa0ab;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.container{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.portfolio__img,
+.portfolio__text{
+    flex: 0 0 400px;
+    max-width: 400px;
+}
+.portfolio__img img{
+    width: 100%;
+    display: inline-block;
+}
+.portfolio__text h1{
+    margin-top: 20px;
+    font-size: 40px;
+    margin-bottom: 14px;
+}
+.portfolio__text h5{
+    color: #314a5b;
+}
+.portfolio__text p{
+    color: #9aa0ab;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+/* End portfolio */
+
+/* Our team */
+
+.our__team .container{
+    flex-direction: column;
+}
+.our__team >.container>h1{
+    font-size: 32px;
+}
+.our__team >.container>h4{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #9aa0ab;
+}
+.our__team-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+.our__team-item{
+    max-width: 300px;
+    flex: 0 0 300px;
+    display: flex;
+}
+.our__team-item img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.our__team-item h1{
+    margin-top: 15px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.our__team-item h5{
+    color: #fa5c65;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 1.5;
+}
+.more{
+    margin-top: 55px;
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+
+/* Footer starts */
+footer .container{
+    border-top: 1px solid #e6eaed;
+    height: 200px;
+    padding-top: 32px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .container a{
+    color: #b9c0c6;
+    font-size: 28px;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+}
+footer .container a:hover{
+    color: dodgerblue;
+}
+.container p{
+    color: #b9b9b9;
+    font-size: 18px;
+}
